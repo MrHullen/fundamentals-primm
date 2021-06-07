@@ -1,6 +1,9 @@
 <script>
+  import Nav from '$lib/Nav.svelte'
   import Header from '$lib/Header.svelte'
 </script>
+
+<Nav />
 
 <Header />
 
@@ -10,6 +13,6 @@
   </h2>
 
   <p>
-    SvelteKit makes creating websites and web apps much easier!
+    Check out the lessons above!
   </p>
 </section>
